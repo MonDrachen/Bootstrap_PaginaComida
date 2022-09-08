@@ -1,0 +1,38 @@
+$primary: orange;
+$warning: tan;
+$success: chocolate;
+$danger: whitesmoke;
+$spinner-animation-speed: 1s;
+$alert-margin-bottom: 0.5rem;
+$btn-font-family: cursive;
+$carousel-transition-duration: 1s;
+$card-spacer-y: 0.5rem;
+$card-spacer-x: 0.5rem;
+$card-height: 100%;
+
+
+$theme-colors: (
+  "primary": $primary,
+  "warning": $warning,
+  "success": $success,
+  "danger":$danger,
+);
+
+h1{
+    color: whitesmoke;
+    background-color: salmon;
+    font-family: cursive;
+}
+
+h3{
+    color: whitesmoke;
+    background-color: sandybrown;
+    font-family: cursive;
+}
+
+#row1{
+    background-color: salmon;
+}
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";

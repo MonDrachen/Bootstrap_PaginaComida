@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MY FOOD</title>
+    <link href="./main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="container -md border text-center">
+      <div class="row" id="row1"> 
+        <div class="col-l-4 col-md-4 col-2">
+            <div class="spinner-grow text-danger" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+        <div class="col">
+            <h1>MY FOOD</h1>
+        </div>
+        <div class="col-l-4 col-md-4 col-2">
+            <div class="spinner-grow text-danger" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col">
+            <a class="btn btn-primary" href="index.html"><i class="fa fa-home"></i> Inicio</a>
+          </div>
+          <div class="col">
+              <a class="btn btn-success" href="comida.html"><i class="fa fa-cutlery"></i> Comida</a>
+          </div>
+          <div class="col">
+              <a class="btn btn-warning" href="postre.html"><i class="fa fa-coffee"></i> Postre</a>
+          </div>
+      </div>
+      <div class="row">
+          <div class="alert alert-primary" role="alert">
+              ¡Bienvenido nuevamente!
+          </div>
+      </div>
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-l-10 col-md-10 col-12"  >
+          <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item">
+                <img src="https://img.freepik.com/premium-photo/baking-dish-with-tasty-vegetable-lasagna-wooden-background_135427-7641.jpg?w=2000" class="d-block w-100" alt="1">
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.foodlion.com/content/dam/Recipes/hearty-maple-cinnamon-oatmeal-pancakes/808x454%20Maple%20Cinnamon%20Oatmeal%20Pancakes72.jpg.adapt.full.high.jpg" class="d-block w-100" alt="2">
+              </div>
+              <div class="carousel-item active">
+                <img src="https://www.elespectador.com/resizer/_kBwlK__GTUDxhFrYLlqRz2no78=/920x613/filters:format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/TJERDCQCIFAQXJZL2AFMX23QR4.jpg" class="d-block w-100" alt="3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        </div> 
+        <div class="col"></div>
+      </div>
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-l-4 col-md-6 col-8">
+          <!-- Scrollable modal -->
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Más sobre la Página
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="staticBackdropLabel">Resumen de la Página</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  Está  página fue realizada con el propósito de aprender y practicar conceptos sobre la biblioteca multiplataforma para sitios
+                  Web, Bootstrap. El contenido que se estará revisando en este sitio, consiste en un recetario tanto de comidas como de postres 
+                  de los platillos favoritos de su creador. Disfuten las recetas y Bon appetit! ;)<br>
+                  <br>
+                  Atte: Rafa Mondragón
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col"></div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
+
